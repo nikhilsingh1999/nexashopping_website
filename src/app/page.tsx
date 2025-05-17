@@ -1,19 +1,18 @@
 import Link from "next/link"
 import Image from "next/image"
 import {
-  ArrowRight, CheckCircle, Download, Rocket, Shield, TrendingUp, ShieldCheck, Handshake, Monitor,
+  ArrowRight, CheckCircle, Download, Rocket, Shield, TrendingUp, ShieldCheck, Handshake,
   Shirt,
   Sparkles,
   Car,
-  Wrench,
+
   House,
   Lightbulb,
-  LightbulbIcon,
   Cog,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import Header from "@/components/ui/Header"
+import Header from "@/components/Header"
 import Footer from "@/components/ui/Footer"
 
 
