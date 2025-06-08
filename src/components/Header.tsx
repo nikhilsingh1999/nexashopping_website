@@ -50,9 +50,9 @@ export default function Header() {
 
         {/* Action buttons */}
         <div className="flex items-center gap-2 md:gap-4">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <Button asChild className="rounded-xl hidden sm:flex">
-            <Link href="#download">Download App</Link>
+            <Link href="https://distributor.nexashopping.in">Became Distributor</Link>
           </Button>
 
           {/* Mobile Menu Toggle */}
@@ -105,11 +105,11 @@ export default function Header() {
             Privacy
           </Link>
           <Link
-            href="#download"
+            href="https://distributor.nexashopping.in"
             className="block text-sm font-semibold border border-white py-2 px-4 rounded-xl text-center hover:bg-white hover:text-black transition"
             onClick={() => setIsMenuOpen(false)}
           >
-            Download App
+            Became Distributor
           </Link>
         </div>
       )}

@@ -6,8 +6,11 @@ import { ThemeProvider } from "@/components/ui/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "My App",
-  description: "This is an information page about our application",
+  title: "NexaShopping - Your One-Stop Shopping Experience",
+  description: "Discover the best products at unbeatable prices with NexaShopping. Shop now for electronics, fashion, home goods, and more!",
+  icons: {
+    icon: "/favicon.png", 
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

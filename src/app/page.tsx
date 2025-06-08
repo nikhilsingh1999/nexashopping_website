@@ -5,7 +5,6 @@ import {
   Shirt,
   Sparkles,
   Car,
-
   House,
   Lightbulb,
   Cog,
@@ -18,6 +17,8 @@ import Footer from "@/components/ui/Footer"
 
 export default function Home() {
   return (
+  
+    
     <div className="flex min-h-screen  flex-col">
 
       <Header />
@@ -288,5 +289,6 @@ export default function Home() {
       {/* Footer Section */}
       <Footer />
     </div>
+    
   )
 }
