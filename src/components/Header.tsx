@@ -4,7 +4,6 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/ui/theme-toggle.tsx/theme-toggle"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
