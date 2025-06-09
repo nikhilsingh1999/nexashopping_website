@@ -4,7 +4,7 @@ import Header from "@/components/Header"
 const sections = [
 	{
 		title: "1. Introduction",
-		content: `At AppName, we respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application and website.`,
+		content: `At NEXASHOPPING, we respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application and website.`,
 	},
 	{
 		title: "2. Information We Collect",
@@ -67,7 +67,7 @@ const sections = [
 		title: "9. Contact Us",
 		content: `If you have any questions about this Privacy Policy, please contact us at:`,
 		contact: {
-			email: "privacy@appname.com",
+			email: "privacy@NEXASHOPPING.com",
 			address: "123 App Street, Tech City, TC 12345",
 		},
 	},
@@ -117,7 +117,7 @@ export default function PrivacyPolicyPage() {
 			<footer className="border-t py-6 px-4">
 				<div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
 					<p className="text-center text-sm text-muted-foreground md:text-left">
-						© {new Date().getFullYear()} AppName. All rights reserved.
+						© {new Date().getFullYear()} NEXASHOPPING. All rights reserved.
 					</p>
 					<div className="flex gap-4">
 						<Link
