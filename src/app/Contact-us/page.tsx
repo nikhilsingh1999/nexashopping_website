@@ -29,7 +29,7 @@ export default function ContactPage() {
         <h1 className="text-4xl font-bold mb-6 text-center">Contact Us</h1>
 
         <p className="text-gray-300 text-center max-w-2xl mx-auto mb-12">
-          Need help or have feedback? We'd love to hear from you. Fill out the form or use the contact details to reach us directly.
+          Need help or have feedback? We&rsquo;d love to hear from you. Fill out the form or use the contact details to reach us directly.
         </p>
 
         <div className="grid md:grid-cols-2 gap-10">
@@ -91,7 +91,7 @@ export default function ContactPage() {
             </button>
 
             {submitted && (
-              <p className="text-green-400 text-center">Thank you! We'll be in touch soon.</p>
+              <p className="text-green-400 text-center">Thank you! We&rsquo;ll be in touch soon.</p>
             )}
           </form>
 
