@@ -101,7 +101,7 @@ export default function ContactPage() {
 
             <div>
               <p className="text-gray-300 font-medium">Business Name:</p>
-              <p className="text-gray-400">Nexashopping Pvt. Ltd.</p>
+              <p className="text-gray-400">Nexashopping </p>
             </div>
 
             <div>
